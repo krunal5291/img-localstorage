@@ -1,4 +1,4 @@
-let products = JSON.parse(localStorage.getItem("products")) || []
+let products = JSON.parse(localStorage.getItem("product")) || []
 
 const ui = () => {
     document.getElementById("ui").innerHTML = ""
